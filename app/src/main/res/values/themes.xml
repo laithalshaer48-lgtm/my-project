@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeOpen" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">@color/icon_bg</item>
+        <item name="colorSecondary">@color/brand_dark</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35" xmlns:tools="http://schemas.android.com/tools">true</item>
+    </style>
+    <style name="Theme.SafeOpen.Translucent" parent="Theme.SafeOpen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.SafeOpen.Fullscreen" parent="Theme.SafeOpen">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

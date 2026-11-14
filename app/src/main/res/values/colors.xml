@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#1F5FD1</color>
+    <color name="brand_dark">#14408F</color>
+    <color name="safe">#1E8E4E</color>
+    <color name="safe_bg">#E3F4EA</color>
+    <color name="warn">#B26A00</color>
+    <color name="warn_bg">#FFF2DC</color>
+    <color name="danger">#C62828</color>
+    <color name="danger_bg">#FDE4E4</color>
+    <color name="icon_bg">#E8EEFB</color>
+    <color name="launcher_bg">#1F5FD1</color>
+</resources>
