@@ -6,6 +6,11 @@ on:
     tags: [ "v*" ]
   pull_request:
   workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Publish a GitHub Release with this tag (e.g. v1.0.0). Leave empty to only build."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -54,4 +59,19 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
+          files: dist/SafeOpen.apk
+
+      - name: Publish GitHub release (manual run)
+        if: github.event_name == 'workflow_dispatch' && inputs.release_tag != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          target_commitish: ${{ github.sha }}
+          name: SafeOpen ${{ inputs.release_tag }}
+          body: |
+            ## الفاتح الآمن · SafeOpen ${{ inputs.release_tag }}
+
+            نزّل `SafeOpen.apk` وافتحه على التلفون (أندرويد 8 أو أحدث)، ووافق على التثبيت من هاد المصدر.
+
+            Download `SafeOpen.apk` below and open it on your phone (Android 8.0+).
           files: dist/SafeOpen.apk
