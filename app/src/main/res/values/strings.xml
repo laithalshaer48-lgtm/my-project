@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الفاتح الآمن</string>
+
+    <!-- Main screen -->
+    <string name="hero_title">كل ملف يُفحص قبل ما ينفتح</string>
+    <string name="hero_text">التطبيق ما عنده صلاحية إنترنت، فملفاتك ما بتطلع من تلفونك أبداً.</string>
+    <string name="open_file">افتح ملف</string>
+    <string name="open_folder">افتح مجلد</string>
+    <string name="open_storage">تصفّح كل ذاكرة التلفون</string>
+    <string name="saved_folders">المجلدات المحفوظة</string>
+    <string name="long_press_remove">اضغط مطوّلاً للإزالة</string>
+    <string name="remove_folder_q">إزالة المجلد \"%1$s\" من القائمة؟</string>
+    <string name="remove">إزالة</string>
+    <string name="phone_storage">ذاكرة التلفون</string>
+    <string name="supported_title">الملفات المدعومة</string>
+    <string name="supported_text">• وورد: DOCX و DOCM و DOC و RTF و ODT\n• إكسل: XLSX و XLSM و XLS و CSV و ODS\n• باوربوينت: PPTX و PPTM و PPSX و PPT و ODP\n• PDF، كتب EPUB، صفحات HTML\n• الصور: JPG و PNG و GIF و WEBP و HEIC و SVG و BMP\n• الفيديو والصوت: MP4 و MKV و WEBM و MP3 و M4A و WAV و OGG و FLAC\n• الملفات المضغوطة ZIP (تقدر تفتح الملفات اللي جواها)\n• أي ملف ثاني: يُعرض كنص أو بصيغة Hex</string>
+    <string name="protection_title">الحماية</string>
+    <string name="protection_text">• ما في صلاحية إنترنت: ولا ملف بقدر يرسل بياناتك لأي مكان.\n• الماكرو والسكربتات والجافاسكربت ما بتشتغل أبداً، ولا حتى داخل PDF.\n• الفاحص بكشف: الماكرو الخبيث، البرامج المتخفية بشكل مستند، الامتدادات المزدوجة، روابط القوالب الخارجية، ثغرة Follina، ثغرة محرر المعادلات، DDE، جافاسكربت PDF والأوامر التلقائية، قنابل ZIP، والملفات الغريبة جوا الأرشيفات.\n• الملفات بتنفتح كنسخة بالمساحة الخاصة بالتطبيق، وبتنمسح أول ما تسكّر.</string>
+    <string name="storage_explain">عشان تتصفح كل المجلدات (زي التنزيلات وواتساب)، أندرويد بطلب إذن \"الوصول إلى كل الملفات\". التطبيق ما عنده إنترنت، فما في أي ملف بطلع من تلفونك. فعّل الإذن لـ \"الفاتح الآمن\" وارجع للتطبيق.</string>
+    <string name="block_screenshots">منع لقطات الشاشة</string>
+    <string name="about">حول التطبيق</string>
+    <string name="about_text">الفاتح الآمن بفتح ملفات المستندات والجداول والعروض والصور والفيديو وغيرها، وبفحص كل ملف قبل ما يفتحه.\n\nالفحص بصير على التلفون نفسه وبدون إنترنت، وبدوّر على الأساليب اللي بستخدمها المخترقين بالملفات. بس هو فحص ذكي بالقواعد، مش بديل كامل عن برنامج مكافحة فيروسات بتحديثات توقيعات.\n\nالتطبيق ما بنفّذ أي شي من جوا الملفات.</string>
+
+    <!-- Viewer -->
+    <string name="details">التفاصيل ‹</string>
+    <string name="scanning">جاري فحص الملف…</string>
+    <string name="rendering">جاري فتح الملف…</string>
+    <string name="verdict_safe">آمن، ما في أي تهديد</string>
+    <string name="verdict_suspicious">مشبوه، انتبه</string>
+    <string name="verdict_dangerous">خطير، تم حظر الملف</string>
+    <string name="gate_warn_text">لقينا بالملف أشياء ممكن تُستخدم بالاختراق. التطبيق بقدر يعرضه بالوضع المحمي (ما بنفّذ أي شي)، بس لا تفتحه ببرنامج ثاني إذا ما بتعرف مصدره.</string>
+    <string name="gate_danger_text">الملف فيه علامات واضحة إنه خبيث، أو إنه برنامج متخفي بشكل ملف عادي. منعنا فتحه. تقدر تشوف محتواه الخام بأمان، بس لا تشغّله ولا تبعته لحدا.</string>
+    <string name="open_protected">افتحه بالوضع المحمي</string>
+    <string name="view_raw">اعرض المحتوى الخام (آمن)</string>
+    <string name="close">إغلاق</string>
+    <string name="security_report">تقرير الفحص</string>
+    <string name="open_with">افتح ببرنامج ثاني</string>
+    <string name="open_with_warning">لما تفتح الملف ببرنامج ثاني، حماية الفاتح الآمن ما بتعود تشمله. كمّل بس إذا كنت واثق من مصدر الملف.</string>
+    <string name="continue_">متابعة</string>
+    <string name="no_app">ما في تطبيق بفتح هالنوع من الملفات</string>
+    <string name="pages">%1$d صفحة</string>
+    <string name="files_count">%1$d عنصر</string>
+    <string name="empty_file">الملف فاضي.</string>
+    <string name="empty_folder">المجلد فاضي</string>
+    <string name="encrypted_entry">الملف هاد مشفّر بكلمة سر</string>
+    <string name="legacy_notice">هاد ملف أوفيس بالصيغة القديمة (97–2003). عرضنا النص اللي فيه بس. عشان التنسيق الكامل، احفظه بصيغة DOCX أو XLSX أو PPTX.</string>
+    <string name="html_notice">صفحة ويب معروضة بأمان: السكربتات والروابط والمحتوى الخارجي معطّلة.</string>
+    <string name="unknown_notice">ما في عارض لهاد النوع من الملفات، فبنعرض محتواه الخام.</string>
+
+    <string name="r_name">الاسم</string>
+    <string name="r_type">النوع الحقيقي (حسب محتوى الملف)</string>
+    <string name="r_size">الحجم</string>
+    <string name="r_findings">نتائج الفحص</string>
+    <string name="r_no_findings">ما لقينا أي شي مشبوه.</string>
+    <string name="r_disclaimer">الفحص بصير على التلفون وبدون إنترنت، وبكشف الأساليب المعروفة بالملفات الخبيثة. ما في فاحص بيكشف كل شي بنسبة 100٪، فلا تفتح ملفات من مصادر ما بتعرفها ببرامج ثانية.</string>
+
+    <string name="err_too_large">الملف كبير كثير (%1$s). الحد الأقصى 1 جيجابايت.</string>
+    <string name="err_rejected">رفضنا الملف لأسباب أمنية.</string>
+    <string name="err_permission">ما في إذن لقراءة الملف هاد.</string>
+    <string name="err_open">ما قدرنا نفتح الملف (%1$s).</string>
+    <string name="err_render">ما قدرنا نعرض الملف بشكل كامل، فبنعرض محتواه الخام.</string>
+    <string name="err_pdf_password">ملف PDF هاد محمي بكلمة سر.</string>
+    <string name="err_media">ما قدرنا نشغّل الملف هاد.</string>
+
+    <!-- Folder scan -->
+    <string name="scan_folder">افحص المجلد</string>
+    <string name="scanning_folder">جاري فحص المجلد…</string>
+    <string name="scan_progress">%1$d: %2$s</string>
+    <string name="scan_summary">انفحص %1$d ملف: %2$d خطير، %3$d مشبوه.</string>
+    <string name="scan_errors">ما قدرنا نقرأ %1$d عنصر.</string>
+    <string name="scan_limit">وقفنا عند أول %1$d ملف.</string>
+    <string name="scan_clean">ما في تهديدات ✓</string>
+    <string name="scan_found">ملفات بدها انتباه</string>
+
+    <!-- Kinds -->
+    <string name="kind_word">مستند وورد</string>
+    <string name="kind_excel">جدول إكسل</string>
+    <string name="kind_powerpoint">عرض باوربوينت</string>
+    <string name="kind_image">صورة</string>
+    <string name="kind_video">فيديو</string>
+    <string name="kind_audio">صوت</string>
+    <string name="kind_text">نص</string>
+    <string name="kind_archive">ملف مضغوط</string>
+    <string name="kind_apk">تطبيق أندرويد (APK)</string>
+    <string name="kind_program">برنامج تنفيذي</string>
+    <string name="kind_empty">فاضي</string>
+    <string name="kind_unknown">غير معروف</string>
+
+    <!-- Findings -->
+    <string name="f_eicar">ملف اختبار مكافحة الفيروسات EICAR (الفاحص شغّال صح).</string>
+    <string name="f_known_hash">بصمة الملف مطابقة لملف خبيث معروف.</string>
+    <string name="f_exe_windows">برنامج ويندوز (EXE/DLL). البرامج مش مستندات، لا تشغّله على الكمبيوتر.</string>
+    <string name="f_exe_linux">برنامج لينكس (ELF).</string>
+    <string name="f_exe_mac">برنامج ماك (Mach-O).</string>
+    <string name="f_exe_dex">كود تطبيق أندرويد (DEX).</string>
+    <string name="f_apk">ملف تثبيت تطبيق أندرويد. ثبّته بس إذا من مصدر موثوق.</string>
+    <string name="f_jar">برنامج جافا (JAR).</string>
+    <string name="f_dangerous_ext">امتداد الملف لبرنامج أو اختصار بشتغل تلقائياً.</string>
+    <string name="f_script">ملف سكربت (أوامر). عرضه آمن، بس تشغيله خطير.</string>
+    <string name="f_double_ext">امتداد مزدوج: الملف متخفي بشكل مستند وهو بالحقيقة برنامج.</string>
+    <string name="f_rtlo">اسم الملف فيه رموز بتقلب الكتابة عشان تخبّي الامتداد الحقيقي.</string>
+    <string name="f_mismatch">نوع الملف الحقيقي مش مطابق لامتداده (ملف متنكّر).</string>
+    <string name="f_vba">الملف فيه ماكرو (كود VBA).</string>
+    <string name="f_macro_format">الصيغة بتسمح بالماكرو (DOCM/XLSM/PPTM).</string>
+    <string name="f_xlm">ماكرو إكسل 4.0 (XLM)، كثير بستخدمه المخترقين.</string>
+    <string name="f_autoexec">في كود بشتغل تلقائياً أول ما ينفتح الملف.</string>
+    <string name="f_macro_calls">الماكرو بستدعي أوامر خطيرة (تشغيل برامج، تنزيل ملفات، PowerShell…).</string>
+    <string name="f_activex">الملف فيه عناصر ActiveX.</string>
+    <string name="f_embedded_object">الملف فيه كائنات مضمّنة (OLE).</string>
+    <string name="f_embedded_exe">في برنامج أو سكربت مخبّى جوا الملف.</string>
+    <string name="f_external_template">الملف بحاول يحمّل قالب أو كائن من الإنترنت (حقن قالب عن بُعد).</string>
+    <string name="f_follina">رابط بحاول يستغل ثغرة Follina (MSDT) أو بروتوكول خطير.</string>
+    <string name="f_dde">حقل DDE بقدر يشغّل أوامر على الكمبيوتر.</string>
+    <string name="f_links">الملف فيه روابط خارجية (معطّلة بهاد التطبيق).</string>
+    <string name="f_odf_macros">الملف فيه ماكرو LibreOffice/OpenOffice.</string>
+    <string name="f_equation">كائن محرر المعادلات، اللي بستخدمه المخترقين بثغرة CVE-2017-11882.</string>
+    <string name="f_rtf_object">ملف RTF فيه كائنات مضمّنة.</string>
+    <string name="f_rtf_autoupdate">ملف RTF بحدّث كائناته تلقائياً، وهاد أسلوب معروف بالاستغلال.</string>
+    <string name="f_pdf_js">ملف PDF فيه جافاسكربت (ما بتشتغل بهاد التطبيق).</string>
+    <string name="f_pdf_auto">ملف PDF بشغّل جافاسكربت تلقائياً أول ما ينفتح.</string>
+    <string name="f_pdf_launch">ملف PDF بحاول يشغّل برنامج أو أمر (Launch).</string>
+    <string name="f_pdf_embedded">ملف PDF فيه ملفات مرفقة جواه.</string>
+    <string name="f_pdf_richmedia">ملف PDF فيه وسائط Flash أو RichMedia.</string>
+    <string name="f_pdf_xfa">ملف PDF فيه نماذج XFA.</string>
+    <string name="f_pdf_submit">ملف PDF فيه نماذج بترسل بيانات.</string>
+    <string name="f_pdf_obfuscated">ملف PDF مخبّي كلمات حساسة بترميز مموّه.</string>
+    <string name="f_pdf_encrypted">ملف PDF مشفّر، ففي محتوى ما انفحص بالكامل.</string>
+    <string name="f_zip_bomb">قنبلة ZIP: حجم الملف بعد فك الضغط ضخم كثير.</string>
+    <string name="f_zip_traversal">في ملفات بالأرشيف بتحاول تنكتب برا المجلد (Path Traversal).</string>
+    <string name="f_zip_encrypted">في ملفات مشفّرة بالأرشيف ما بنقدر نفحصها.</string>
+    <string name="f_zip_many">الأرشيف فيه عدد ضخم من الملفات.</string>
+    <string name="f_archive_unscannable">صيغة الأرشيف هاي (RAR/7z/GZ) ما بنقدر نفحص محتواها.</string>
+    <string name="f_nested_exe">الأرشيف فيه برنامج أو سكربت.</string>
+    <string name="f_malformed">بنية الملف تالفة أو غريبة.</string>
+    <string name="f_html_script">صفحة الويب فيها سكربتات (معطّلة هون).</string>
+    <string name="f_html_password">صفحة الويب فيها نموذج بطلب كلمة سر، يمكن تكون صفحة تصيّد.</string>
+    <string name="f_svg_script">صورة SVG فيها سكربت (بتنعرض هون كصورة بس).</string>
+    <string name="f_commands">في أوامر نظام مشبوهة (PowerShell، تنزيل وتشغيل، Reverse Shell…).</string>
+    <string name="f_partial">جزء من الملف بس انفحص (الملف كبير أو مشفّر).</string>
+    <string name="f_empty">الملف فاضي.</string>
+</resources>
